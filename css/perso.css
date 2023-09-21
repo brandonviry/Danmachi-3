@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
+#perso{
+    display: flex;
+    flex-direction: row;
+    background-color: #f53c3c;
+    border:3px solid white;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+
+}
+
+#perso h1{
+  
+    margin:0px;
+    align-items: center;
+    font-size: 55px;
+    text-transform: capitalize;
+
+}
+
+#info{
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+}
+
+#perso img{
+  height:140px;
+ 
+}
+
+ul{
+    list-style-type : none ;
+    margin: 0px;
+    padding: 1em;
+
+}
+
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+
+    background-color: #092146;
+   
+}
+
+nav{
+    overflow-y: scroll;
+    height: 100vh;
+    width:30%;
+    border:3px solid white;
+}
+
+section{
+    height: 100vh;
+}
+
+img{
+    height: 100vh;
+    
+}
+#page{
+    background-color: #f53c3c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border:3px solid white;
+    
+}
+
+#page img{
+    margin-left: 50%;
+    margin-right: 50%;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  
+    
+}
+
+#perso:hover{
+    background: rgb(245,60,60);
+    background: linear-gradient(36deg, rgb(245, 60, 60,1) 0%, rgba(255,255,255,1) 100%); 
+    border-style: black;  
+
+}
+
+
+
+
+
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danmachi saison 1 (v.page web basique) </title>
+    <link rel="icon" type="ico" href="https://danmachi.com/danmachi/images/favicon.ico" />
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin: 0px;
+            overflow: hidden;
+        }
+        nav{
+            height: 15vh;
+            position: absolute;
+            width: 100%;
+            margin: 0px;
+            opacity: 0.8;
+        }
+
+        nav ul{
+            background-color:#f53c3c;
+            text-decoration: none;
+            color:white;
+            list-style: none;
+            display:  flex ;
+            flex-direction: row;
+            
+
+        }
+        nav ul li{
+            padding: 0.5em;
+            margin:0.2em;
+            text-transform: uppercase;
+            font-family: Arial;
+        }
+        iframe{
+            height: 100vh;
+            width: 100%;
+           
+           
+                    
+        }
+
+    
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li id="hist">histoire</li>
+            <li id="perso">Personnage</li>
+        </ul>
+    </nav>
+    <section>
+        <iframe src="histoire.html" frameborder="0" id="page"></iframe>
+   
+    </section>
+    <script>
+        document.querySelector("#hist").addEventListener("click",(event)=>{
+            document.querySelector("#page").src = "histoire.html"
+        
+        })
+        document.querySelector("#perso").addEventListener("click",(event)=>{
+            document.querySelector("#page").src = "perso.html"
+        })
+
+    </script>
+    
+</body>
+</html>
